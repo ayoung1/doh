@@ -1,1 +1,89 @@
 /*My Styles*/
+article{
+	text-align: center;
+}
+
+body{
+	background: rgb(157, 160, 214);
+}
+
+.button{
+	background: #333;
+	width: 7em;
+}
+
+.banner {
+    background: darkgrey;
+    height: 5em;
+    width: 100%;
+}
+.banner a {
+    color: gold;
+    transition: 1s color;
+}
+
+.banner a:hover {
+    color: blue;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+/* Nav */
+.nav {
+    height: 40px;
+    padding: 0;
+    margin: 15px 0 0;
+    float: right;
+}
+    /* Nav item */
+.nav__item {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.banner--clone {
+
+    /* Required styles */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Additional styles */
+    background: darkgrey;
+
+    /* Translate -100% to move off screen */
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+
+    /* Animations */
+    -webkit-transition: all 500ms ease-in-out;
+       -moz-transition: all 500ms ease-in-out;
+            transition: all 500ms ease-in-out;
+
+}
+
+.banner--stick {
+
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+}
+
+.banner--unstick {
+
+}
