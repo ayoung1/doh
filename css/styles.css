@@ -1,29 +1,33 @@
 /*My Styles*/
 article{
-	text-align: center;
+    text-align: center;
 }
 
 body{
-	background: rgb(157, 160, 214);
+    background: url(../img/sandpaper.png);
 }
 
 .button{
-	background: #333;
-	width: 7em;
+    background: #333;
+    width: 7em;
 }
 
 .banner {
-    background: darkgrey;
+    background: url(../img/tweed.png);
     height: 5em;
     width: 100%;
 }
 .banner a {
-    color: gold;
-    transition: 1s color;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    border-bottom: 3px solid cornflowerblue;
+    transition: .25s color, .25s border;
 }
 
 .banner a:hover {
-    color: blue;
+    color: cornflowerblue;
+    border-bottom: 7px solid cornflowerblue;
 }
 
 .logo {
@@ -63,7 +67,7 @@ body{
     left: 0;
 
     /* Additional styles */
-    background: darkgrey;
+    background: url(../img/tweed.png);
 
     /* Translate -100% to move off screen */
     -webkit-transform: translateY(-100%);
